@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="sidebar">
+        pee pee
+    </div>
+    <div class="main-div">
+        <section class="top-section">
+            <h3>Some text up top</h3>
+            <h3>Some more text below</h3>
+        </section>
+        <form action="" method="get" id="create">
+            <h3>Let's do this!</h3>
+            <ul>
+                <li>
+                    <!-- divs around each of these guys for styling-->
+                    <div class="first-name">
+                        <label for="first">first name</label>
+                        <input type="text" 
+                        name="first" 
+                        id="first"
+                        placeholder="John">
+                    </div>
+        
+                    <div class="last-name">
+                        <label for="last">last name</label>
+                        <input type="text" 
+                        name="last" 
+                        id="last"
+                        placeholder="Doe">
+                    </div>
+                </li>
+                <li>
+                    <div class="user-email">
+                        <label for="email">email</label>
+                        <input type="email" 
+                        name="email" 
+                        id="email"
+                        placeholder="john@doe.com">
+                    </div>
+                    <div class="phone-number">
+                        <label for="phone">phone number</label>
+                        <input type="tel" 
+                        name="phone" 
+                        id="phone"
+                        placeholder="1234567890"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    </div>
+                </li>
+                <li>
+                    <div class="password">
+                        <label for="pwd">password</label>
+                        <input type="password" 
+                        name="pwd" 
+                        id="pwd">
+                    </div>
+                    <div class="confirm-password">
+                        <label for="confirm-pwd">confirm password</label>
+                        <input type="password" 
+                        name="confirm-pwd" 
+                        id="confirm-pwd">
+                    </div>
+                </li>
+            </ul>
+        </form>
+        <section class="bottom-section">
+            <button type="submit" form="create">Create Account</button>
+            <p>Already have an account? <a href="">Log in</a></p>
+        </section>
+    </div>
+</body>
+</html>
