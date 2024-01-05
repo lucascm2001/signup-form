@@ -20,7 +20,7 @@ body {
 .tag {
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
-    margin-top: 200px;
+    margin-top: 250px;
     padding: 10px;
     color: white;
     text-align: center;
@@ -31,6 +31,7 @@ body {
 .main-div {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color:rgb(245, 245, 246);
     flex: 3;
     
