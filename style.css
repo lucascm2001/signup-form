@@ -13,6 +13,19 @@ body {
 .sidebar {
     flex: 2;
     background-image: url(bgimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tag {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin-top: 200px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .main-div {
@@ -71,6 +84,13 @@ input:focus {
 li div {
     display: flex;
     flex-direction: column;
+}
+
+small {
+    font-variant: normal;
+    font-weight: 500;
+    margin-top: 5px;
+    color: red;
 }
 
 
